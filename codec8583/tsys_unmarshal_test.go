@@ -9,7 +9,7 @@ import (
 )
 
 func TestTSYSUnmarshalerUnmarshalSmallMessage(t *testing.T) {
-	v := iso8583Message2{}
+	v := iso8583Msg2{}
 	expectedError := errors.New("ISO 8583 unmarshal: message too small to read: 6 < 12, message: []byte{0x46, 0x6f, 0x6f, 0x62, 0x61, 0x72}")
 	err := codec8583.TSYSUnmarshaler.Unmarshal([]byte("Foobar"), &v)
 	if !equal4.ErrorEqual(err, expectedError) {
