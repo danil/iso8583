@@ -19,7 +19,7 @@ var MastercardFormatTestCases = []struct {
 	benchmark bool
 }{
 	{
-		encoded:   fakeMessages[0],
+		encoded:   iso8583Bytes[0],
 		decoded:   iso8583Msg{MessageTypeIndicator: "0100", PrimaryAccountNumber: "5321XXXXXXXX6334", ProcessingCode: "000000", AmountTransaction: "000000020126", AmountCardholderBilling: "000000000310", TransmissionDateTime: "1008053137", ConversionRateCardholderBilling: "70154259", SystemTraceAuditNumber: "196842", LocalTransactionTime: "083137", LocalTransactionDate: "1008", ExpirationDate: "2312", SettlementDate: "1008", CurrencyConversionDate: "1008", MerchantTypeOrMerchantCategoryCode: "5411", PointOfServiceEntryMode: "071", ApplicationPANSequenceNumber: "001", AcquiringInstitutionIdentificationCode: "005037", ForwardingInstitutionIdentificationCode: "200154", Track2Data: "5321XXXXXXXX6334D23122011969100000377", RetrievalReferenceNumber: "519939727023", CardAcceptorTerminalIdentification: "10747007", CardAcceptorIdentificationCode: "990000026622   ", CardAcceptorNameLocation: "PYATEROCHKA 7904       Podolsk       RUS", AdditionalDataPrivate: "2fLz8PLw8Pbx8PXw8PDw8Q==", CurrencyCodeTransaction: "643", CurrencyCodeCardholderBilling: "840", ICCData: "XyoCBkOCAhmAhAegAAAABBAQlQUAAACAAJoDGRAInAEAnwIGAAAAAgEmnwMGAAAAAAAAnxASARCgQAMiAAAAAAAAAAAAAAD/nxoCBkOfJggCXxqRiyDckZ8nAYCfMwPgCMifNAMfAwCfNgIBYJ83BM8lmh8=", ReservedPrivate1: "0000010000300643142103", ReservedPrivate3: "TNWGAP405"},
 		line:      func() int { _, _, l, _ := runtime.Caller(1); return l }(),
 		benchmark: true,

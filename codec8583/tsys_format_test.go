@@ -18,7 +18,7 @@ var TSYSMarshalerUnmarshalerMarshalUnmarshalTestCases = []struct {
 }{
 	{
 		decoded:   iso8583Msg2{MTI: "0200", PrimaryAccountNumber: "5321000000002610", ProcessingCode: "000000", AmountOrig: "000000040000", TransmissionDateTime: "0517141728", TraceNumber: "000064", LocalTime: "135253", LocalDate: "0516", DateSettlement: "0517", DateCapture: "0516", MerchantType: "6010", POSDataCode: "9020", PointOfServiceConditionCode: "00", AcquirerInstitutionID: "999905", TrackData: "0000000000000000000000000000000000000", RetrievalReference: "713619909448", CardAccptrTermnlID: "80110001", CardAccptrIDCode: "80110001       ", CardAccptrNameLoc: "CENTRAL OFFICE           Moscow       RU", CurrencyOrig: "643", AdditionalInformation: "02000000", MessageOriginator: "MCTIDHI1", AccountFrom: "00000000611643", AdditionalInformationPart1: "UD060CI045010100201003010040120501006010070100801009010ER00540073"},
-		encoded:   fakeMessages[1],
+		encoded:   iso8583Bytes[1],
 		line:      func() int { _, _, l, _ := runtime.Caller(1); return l }(),
 		benchmark: true,
 	},

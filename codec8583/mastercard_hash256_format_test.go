@@ -63,7 +63,7 @@ func TestMastercardHash256Format(t *testing.T) {
 
 func BenchmarkMastercardUnmarshalerHasher256Unmarshal(b *testing.B) {
 	dec := iso8583Msg{}
-	err := codec8583.MastercardUnmarshalerHasher256.Unmarshal(fakeMessages[0], &dec)
+	err := codec8583.MastercardUnmarshalerHasher256.Unmarshal(iso8583Bytes[0], &dec)
 	if err != nil {
 		fmt.Println(err)
 	}

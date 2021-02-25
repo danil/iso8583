@@ -65,7 +65,7 @@ func TestMastercardTruncateFormat(t *testing.T) {
 
 func BenchmarkMastercardUnmarshalerTruncatorUnmarshal(b *testing.B) {
 	dec := iso8583Msg{}
-	err := codec8583.MastercardUnmarshalerTruncator.Unmarshal(fakeMessages[0], &dec)
+	err := codec8583.MastercardUnmarshalerTruncator.Unmarshal(iso8583Bytes[0], &dec)
 	if err != nil {
 		fmt.Println(err)
 	}
