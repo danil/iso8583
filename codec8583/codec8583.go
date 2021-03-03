@@ -12,7 +12,7 @@ import (
 	"sync"
 )
 
-// Format maps codes to the ISO 8583 message MIT/bitmaps/each individual field.
+// Format maps a codes to a MIT/bitmaps/each individual field of the ISO 8583 message.
 type Format map[int]Codec
 
 var (
@@ -166,7 +166,7 @@ func DecHash256(h Hasher, codec Codec, enc []byte) ([]byte, error) {
 	return []byte(hex.EncodeToString(s256)), nil
 }
 
-// Codec encodes/decodes ISO 8583 MTI/bitmaps/fields.
+// Codec encodes/decodes a MTI/bitmaps/fields of the ISO 8583 message.
 type Codec interface {
 	Encode(Hasher, []byte) ([]byte, error)
 	Decode(Hasher, []byte) ([]byte, error)
@@ -176,7 +176,7 @@ type Codec interface {
 	Charset() Charset
 }
 
-// FIX is an codec for the fixed length fields/MTI/bitmaps of the ISO 8583.
+// FIX is an codec for a fixed length fields/MTI/bitmaps of the ISO 8583.
 type FIX struct {
 	Length int
 	ChrSet Charset
