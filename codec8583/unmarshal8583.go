@@ -144,11 +144,11 @@ func (umrs *unmarshal) decodeField(fld int, fldToTgtFld map[int]int) error {
 	if err != nil {
 		return err
 	}
-	fieldIndex, ok := fldToTgtFld[fld]
+	fldIdx, ok := fldToTgtFld[fld]
 	if !ok {
 		return fmt.Errorf("struct does not have a field with tag: %#[1]v, the message in field: %#[1]v, has a value: %#[2]v", fld, string(val))
 	}
-	valueField := umrs.target.Field(fieldIndex)
+	valueField := umrs.target.Field(fldIdx)
 	valueField.SetString(string(val))
 	return nil
 }

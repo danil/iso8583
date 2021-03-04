@@ -102,7 +102,7 @@ func (mrs *marshal) fieldNumbersAndValues() ([]int, map[int][]byte) {
 		if tag == "" {
 			continue
 		}
-		index, err := strconv.ParseInt(tag, 10, 64)
+		idx, err := strconv.ParseInt(tag, 10, 64)
 		if err != nil {
 			continue
 		}
@@ -111,7 +111,7 @@ func (mrs *marshal) fieldNumbersAndValues() ([]int, map[int][]byte) {
 		if val == "" {
 			continue
 		}
-		fldValues[int(index)] = []byte(val)
+		fldValues[int(idx)] = []byte(val)
 	}
 	fldNumbers := make([]int, 0, len(fldValues))
 	for fld := range fldValues {
