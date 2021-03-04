@@ -13,4 +13,4 @@ found in the [LICENSE](./LICENSE) file.
 Install
 -------
 
-    go get github.com/danil/iso8583@v0.16.0
+    go get github.com/danil/iso8583@v0.17.0

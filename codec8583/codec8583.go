@@ -12,6 +12,8 @@ import (
 	"sync"
 )
 
+const Tag8583 = "iso8583"
+
 // Format maps a codes to a MIT/bitmaps/each individual field of the ISO 8583 message.
 type Format map[int]Codec
 

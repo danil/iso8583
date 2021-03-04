@@ -41,7 +41,7 @@ func (mrs marshal) marshal(v interface{}) ([]byte, error) {
 	var mtiVal reflect.Value
 	for i := 0; i < mrs.source.NumField(); i++ {
 		fld := mrs.source.Type().Field(i)
-		tag := strings.Split(fld.Tag.Get("iso8538"), ",")[0] // use split to ignore tag "options" like omitempty, etc.
+		tag := strings.Split(fld.Tag.Get(Tag8583), ",")[0] // use split to ignore tag "options" like omitempty, etc.
 		if tag == "MTI" {
 			mtiVal = mrs.source.Field(i)
 			break
@@ -98,7 +98,7 @@ func (mrs *marshal) fieldNumbersAndValues() ([]int, map[int][]byte) {
 	for i := 0; i < mrs.source.NumField(); i++ {
 		fldVal := mrs.source.Field(i)
 		fld := mrs.source.Type().Field(i)
-		tag := fld.Tag.Get("iso8538")
+		tag := fld.Tag.Get(Tag8583)
 		if tag == "" {
 			continue
 		}

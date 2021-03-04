@@ -65,7 +65,7 @@ func (umrs *unmarshal) decodeMTI() error {
 	var mtiVal reflect.Value
 	for i := 0; i < umrs.target.NumField(); i++ {
 		fld := umrs.target.Type().Field(i)
-		tag := strings.Split(fld.Tag.Get("iso8538"), ",")[0] // use split to ignore tag "options" like omitempty, etc.
+		tag := strings.Split(fld.Tag.Get(Tag8583), ",")[0] // use split to ignore tag "options" like omitempty, etc.
 		if tag == "MTI" {
 			mtiVal = umrs.target.Field(i)
 			break
@@ -158,7 +158,7 @@ func decodingFieldToTargetFields(target reflect.Value) (map[int]int, error) {
 	fldToTgtFld := make(map[int]int, target.NumField())
 	for i := 0; i < target.NumField(); i++ {
 		fld := target.Type().Field(i)
-		tag := fld.Tag.Get("iso8538")
+		tag := fld.Tag.Get(Tag8583)
 		if tag == "" || tag == "MTI" {
 			continue
 		}

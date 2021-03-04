@@ -6,189 +6,189 @@ var iso8583Bytes = [][]byte{
 }
 
 type iso8583Msg struct {
-	MessageTypeIndicator                    string `iso8538:"MTI"` // Message type indicator (MTI)
-	PrimaryAccountNumber                    string `iso8538:"2"`   // Primary account number (PAN)
-	ProcessingCode                          string `iso8538:"3"`   // Processing code
-	AmountTransaction                       string `iso8538:"4"`   // Amount, transaction
-	AmountSettlement                        string `iso8538:"5"`   // Amount, settlement
-	AmountCardholderBilling                 string `iso8538:"6"`   // Amount, cardholder billing
-	TransmissionDateTime                    string `iso8538:"7"`   // Transmission date & time
-	AmountCardholderBillingFee              string `iso8538:"8"`   // Amount, cardholder billing fee
-	ConversionRateSettlement                string `iso8538:"9"`   // Conversion rate, settlement
-	ConversionRateCardholderBilling         string `iso8538:"10"`  // Conversion rate, cardholder billing
-	SystemTraceAuditNumber                  string `iso8538:"11"`  // System trace audit number (STAN)
-	LocalTransactionTime                    string `iso8538:"12"`  // Local transaction time (hhmmss)
-	LocalTransactionDate                    string `iso8538:"13"`  // Local transaction date (MMDD)
-	ExpirationDate                          string `iso8538:"14"`  // Expiration date
-	SettlementDate                          string `iso8538:"15"`  // Settlement date
-	CurrencyConversionDate                  string `iso8538:"16"`  // Currency conversion date
-	CaptureDate                             string `iso8538:"17"`  // Capture date
-	MerchantTypeOrMerchantCategoryCode      string `iso8538:"18"`  // Merchant type, or merchant category code
-	AcquiringInstitutionCountryCode         string `iso8538:"19"`  // Acquiring institution (country code)
-	PANExtendedCountryCode                  string `iso8538:"20"`  // PAN extended (country code)
-	ForwardingInstitutionCountryCode        string `iso8538:"21"`  // Forwarding institution (country code)
-	PointOfServiceEntryMode                 string `iso8538:"22"`  // Point of service entry mode
-	ApplicationPANSequenceNumber            string `iso8538:"23"`  // Application PAN sequence number
-	FunctionCode                            string `iso8538:"24"`  // Function code (ISO 8583:1993), or network international identifier (NII)
-	PointOfServiceConditionCode             string `iso8538:"25"`  // Point of service condition code
-	PointOfServiceCaptureCode               string `iso8538:"26"`  // Point of service capture code
-	AuthorizingIdentificationResponseLength string `iso8538:"27"`  // Authorizing identification response length
-	AmountTransactionFee                    string `iso8538:"28"`  // Amount, transaction fee
-	AmountSettlementFee                     string `iso8538:"29"`  // Amount, settlement fee
-	AmountTransactionProcessingFee          string `iso8538:"30"`  // Amount, transaction processing fee
-	AmountSettlementProcessingFee           string `iso8538:"31"`  // Amount, settlement processing fee
-	AcquiringInstitutionIdentificationCode  string `iso8538:"32"`  // Acquiring institution identification code
-	ForwardingInstitutionIdentificationCode string `iso8538:"33"`  // Forwarding institution identification code
-	PrimaryAccountNumberExtended            string `iso8538:"34"`  // Primary account number, extended
-	Track2Data                              string `iso8538:"35"`  // Track 2 data (PAN with expiry date)
-	Track3Data                              string `iso8538:"36"`  // Track 3 data
-	RetrievalReferenceNumber                string `iso8538:"37"`  // Retrieval reference number
-	AuthorizationIdentificationResponse     string `iso8538:"38"`  // Authorization identification response
-	ResponseCode                            string `iso8538:"39"`  // Response code
-	ServiceRestrictionCode                  string `iso8538:"40"`  // Service restriction code
-	CardAcceptorTerminalIdentification      string `iso8538:"41"`  // Card acceptor terminal identification
-	CardAcceptorIdentificationCode          string `iso8538:"42"`  // Card acceptor identification code
-	CardAcceptorNameLocation                string `iso8538:"43"`  // Card acceptor name/location (1–23 street address, –36 city, –38 state, 39–40 country)
-	AdditionalResponseData                  string `iso8538:"44"`  // Additional response data
-	Track1Data                              string `iso8538:"45"`  // Track 1 data
-	AdditionalDataISO                       string `iso8538:"46"`  // Additional data (ISO)
-	AdditionalDataNational                  string `iso8538:"47"`  // Additional data (national)
-	AdditionalDataPrivate                   string `iso8538:"48"`  // Additional data (private) (DE 48: Subelement 10 — Encrypted PIN Block Key, Subelement 80 — PIN Service Code)
-	CurrencyCodeTransaction                 string `iso8538:"49"`  // Currency code, transaction
-	CurrencyCodeSettlement                  string `iso8538:"50"`  // Currency code, settlement
-	CurrencyCodeCardholderBilling           string `iso8538:"51"`  // Currency code, cardholder billing
-	PersonalIdentificationNumberData        string `iso8538:"52"`  // Personal identification number data (DE 52: Personal ID Number (PIN) Data)
-	SecurityRelatedControlInformation       string `iso8538:"53"`  // Security related control information (DE 53: Security-Related Control Information, Subfield 1 — PIN Security Type Code, Subfield 2 — PIN Encryption Type Code, Subfield 3 — PIN Block Format Code, Subfield 4—PIN Key Index Number)
-	AdditionalAmounts                       string `iso8538:"54"`  // Additional amounts
-	ICCData                                 string `iso8538:"55"`  // ICC data – EMV having multiple tags
-	ReservedISO                             string `iso8538:"56"`  // Reserved (ISO)
-	ReservedNational1                       string `iso8538:"57"`  // Reserved (national)
-	ReservedNational2                       string `iso8538:"58"`  // Reserved (national)
-	ReservedNational3                       string `iso8538:"59"`  // Reserved (national)
-	ReservedNational4                       string `iso8538:"60"`  // Reserved (national) (e.g. settlement request: batch number, advice transactions: original transaction amount, batch upload: original MTI plus original RRN plus original STAN, etc.)
-	ReservedPrivate1                        string `iso8538:"61"`  // Reserved (private) (e.g. transactions: invoice number, key exchange transactions: TPK key, etc.)
-	ReservedPrivate2                        string `iso8538:"62"`  // Reserved (private) (e.g. transactions: invoice number, key exchange transactions: TPK key, etc.)
-	ReservedPrivate3                        string `iso8538:"63"`  // Reserved (private)
-	MessageAuthenticationCode1              string `iso8538:"64"`  // Message authentication code (MAC)
-	ExtendedBitmapIndicator                 string `iso8538:"65"`  // Extended bitmap indicator
-	SettlementCode                          string `iso8538:"66"`  // Settlement code
-	ExtendedPaymentCode                     string `iso8538:"67"`  // Extended payment code
-	ReceivingInstitutionCountryCode         string `iso8538:"68"`  // Receiving institution country code
-	SettlementInstitutionCountryCode        string `iso8538:"69"`  // Settlement institution country code
-	NetworkManagementInformationCode        string `iso8538:"70"`  // Network management information code
-	MessageNumber                           string `iso8538:"71"`  // Message number
-	LastMessagesNumber                      string `iso8538:"72"`  // Last message's number
-	ActionDate                              string `iso8538:"73"`  // Action date (YYMMDD)
-	NumberOfCredits                         string `iso8538:"74"`  // Number of credits
-	CreditsReversalNumber                   string `iso8538:"75"`  // Credits, reversal number
-	NumberOfDebits                          string `iso8538:"76"`  // Number of debits
-	DebitsReversalNumber                    string `iso8538:"77"`  // Debits, reversal number
-	TransferNumber                          string `iso8538:"78"`  // Transfer number
-	TransferReversalNumber                  string `iso8538:"79"`  // Transfer, reversal number
-	NumberOfInquiries                       string `iso8538:"80"`  // Number of inquiries
-	NumberOfAuthorizations                  string `iso8538:"81"`  // Number of authorizations
-	CreditsProcessingFeeAmount              string `iso8538:"82"`  // Credits, processing fee amount
-	CreditsTransactionFeeAmount             string `iso8538:"83"`  // Credits, transaction fee amount
-	DebitsProcessingFeeAmount               string `iso8538:"84"`  // Debits, processing fee amount
-	DebitsTransactionFeeAmount              string `iso8538:"85"`  // Debits, transaction fee amount
-	TotalAmountOfCredits                    string `iso8538:"86"`  // Total amount of credits
-	CreditsReversalAmount                   string `iso8538:"87"`  // Credits, reversal amount
-	TotalAmountOfDebits                     string `iso8538:"88"`  // Total amount of debits
-	DebitsReversalAmount                    string `iso8538:"89"`  // Debits, reversal amount
-	OriginalDataElements                    string `iso8538:"90"`  // Original data elements
-	FileUpdateCode                          string `iso8538:"91"`  // File update code
-	FileSecurityCode                        string `iso8538:"92"`  // File security code
-	ResponseIndicator                       string `iso8538:"93"`  // Response indicator
-	ServiceIndicator                        string `iso8538:"94"`  // Service indicator
-	ReplacementAmounts                      string `iso8538:"95"`  // Replacement amounts
-	MessageSecurityCode                     string `iso8538:"96"`  // Message security code
-	NetSettlementAmount                     string `iso8538:"97"`  // Net settlement amount
-	Payee                                   string `iso8538:"98"`  // Payee
-	SettlementInstitutionIdentificationCode string `iso8538:"99"`  // Settlement institution identification code
-	ReceivingInstitutionIdentificationCode  string `iso8538:"100"` // Receiving institution identification code
-	FileName                                string `iso8538:"101"` // File name
-	AccountIdentification1                  string `iso8538:"102"` // Account identification 1
-	AccountIdentification2                  string `iso8538:"103"` // Account identification 2
-	TransactionDescription                  string `iso8538:"104"` // Transaction description
-	ReservedForISOUse1                      string `iso8538:"105"` // Reserved for ISO use
-	ReservedForISOUse2                      string `iso8538:"106"` // Reserved for ISO use
-	ReservedForISOUse3                      string `iso8538:"107"` // Reserved for ISO use
-	ReservedForISOUse4                      string `iso8538:"108"` // Reserved for ISO use
-	ReservedForISOUse5                      string `iso8538:"109"` // Reserved for ISO use
-	ReservedForISOUse6                      string `iso8538:"110"` // Reserved for ISO use
-	ReservedForISOUse7                      string `iso8538:"111"` // Reserved for ISO use
-	ReservedForNationalUse1                 string `iso8538:"112"` // Reserved for national use
-	ReservedForNationalUse2                 string `iso8538:"113"` // Reserved for national use
-	ReservedForNationalUse3                 string `iso8538:"114"` // Reserved for national use
-	ReservedForNationalUse4                 string `iso8538:"115"` // Reserved for national use
-	ReservedForNationalUse5                 string `iso8538:"116"` // Reserved for national use
-	ReservedForNationalUse6                 string `iso8538:"117"` // Reserved for national use
-	ReservedForNationalUse7                 string `iso8538:"118"` // Reserved for national use
-	ReservedForNationalUse8                 string `iso8538:"119"` // Reserved for national use
-	ReservedForPrivateUse1                  string `iso8538:"120"` // Reserved for private use
-	ReservedForPrivateUse2                  string `iso8538:"121"` // Reserved for private use
-	ReservedForPrivateUse3                  string `iso8538:"122"` // Reserved for private use
-	ReservedForPrivateUse4                  string `iso8538:"123"` // Reserved for private use
-	ReservedForPrivateUse5                  string `iso8538:"124"` // Reserved for private use
-	ReservedForPrivateUse6                  string `iso8538:"125"` // Reserved for private use
-	ReservedForPrivateUse7                  string `iso8538:"126"` // Reserved for private use
-	ReservedForPrivateUse8                  string `iso8538:"127"` // Reserved for private use
-	MessageAuthenticationCode2              string `iso8538:"128"` // Message authentication code
+	MessageTypeIndicator                    string `iso8583:"MTI"` // Message type indicator (MTI)
+	PrimaryAccountNumber                    string `iso8583:"2"`   // Primary account number (PAN)
+	ProcessingCode                          string `iso8583:"3"`   // Processing code
+	AmountTransaction                       string `iso8583:"4"`   // Amount, transaction
+	AmountSettlement                        string `iso8583:"5"`   // Amount, settlement
+	AmountCardholderBilling                 string `iso8583:"6"`   // Amount, cardholder billing
+	TransmissionDateTime                    string `iso8583:"7"`   // Transmission date & time
+	AmountCardholderBillingFee              string `iso8583:"8"`   // Amount, cardholder billing fee
+	ConversionRateSettlement                string `iso8583:"9"`   // Conversion rate, settlement
+	ConversionRateCardholderBilling         string `iso8583:"10"`  // Conversion rate, cardholder billing
+	SystemTraceAuditNumber                  string `iso8583:"11"`  // System trace audit number (STAN)
+	LocalTransactionTime                    string `iso8583:"12"`  // Local transaction time (hhmmss)
+	LocalTransactionDate                    string `iso8583:"13"`  // Local transaction date (MMDD)
+	ExpirationDate                          string `iso8583:"14"`  // Expiration date
+	SettlementDate                          string `iso8583:"15"`  // Settlement date
+	CurrencyConversionDate                  string `iso8583:"16"`  // Currency conversion date
+	CaptureDate                             string `iso8583:"17"`  // Capture date
+	MerchantTypeOrMerchantCategoryCode      string `iso8583:"18"`  // Merchant type, or merchant category code
+	AcquiringInstitutionCountryCode         string `iso8583:"19"`  // Acquiring institution (country code)
+	PANExtendedCountryCode                  string `iso8583:"20"`  // PAN extended (country code)
+	ForwardingInstitutionCountryCode        string `iso8583:"21"`  // Forwarding institution (country code)
+	PointOfServiceEntryMode                 string `iso8583:"22"`  // Point of service entry mode
+	ApplicationPANSequenceNumber            string `iso8583:"23"`  // Application PAN sequence number
+	FunctionCode                            string `iso8583:"24"`  // Function code (ISO 8583:1993), or network international identifier (NII)
+	PointOfServiceConditionCode             string `iso8583:"25"`  // Point of service condition code
+	PointOfServiceCaptureCode               string `iso8583:"26"`  // Point of service capture code
+	AuthorizingIdentificationResponseLength string `iso8583:"27"`  // Authorizing identification response length
+	AmountTransactionFee                    string `iso8583:"28"`  // Amount, transaction fee
+	AmountSettlementFee                     string `iso8583:"29"`  // Amount, settlement fee
+	AmountTransactionProcessingFee          string `iso8583:"30"`  // Amount, transaction processing fee
+	AmountSettlementProcessingFee           string `iso8583:"31"`  // Amount, settlement processing fee
+	AcquiringInstitutionIdentificationCode  string `iso8583:"32"`  // Acquiring institution identification code
+	ForwardingInstitutionIdentificationCode string `iso8583:"33"`  // Forwarding institution identification code
+	PrimaryAccountNumberExtended            string `iso8583:"34"`  // Primary account number, extended
+	Track2Data                              string `iso8583:"35"`  // Track 2 data (PAN with expiry date)
+	Track3Data                              string `iso8583:"36"`  // Track 3 data
+	RetrievalReferenceNumber                string `iso8583:"37"`  // Retrieval reference number
+	AuthorizationIdentificationResponse     string `iso8583:"38"`  // Authorization identification response
+	ResponseCode                            string `iso8583:"39"`  // Response code
+	ServiceRestrictionCode                  string `iso8583:"40"`  // Service restriction code
+	CardAcceptorTerminalIdentification      string `iso8583:"41"`  // Card acceptor terminal identification
+	CardAcceptorIdentificationCode          string `iso8583:"42"`  // Card acceptor identification code
+	CardAcceptorNameLocation                string `iso8583:"43"`  // Card acceptor name/location (1–23 street address, –36 city, –38 state, 39–40 country)
+	AdditionalResponseData                  string `iso8583:"44"`  // Additional response data
+	Track1Data                              string `iso8583:"45"`  // Track 1 data
+	AdditionalDataISO                       string `iso8583:"46"`  // Additional data (ISO)
+	AdditionalDataNational                  string `iso8583:"47"`  // Additional data (national)
+	AdditionalDataPrivate                   string `iso8583:"48"`  // Additional data (private) (DE 48: Subelement 10 — Encrypted PIN Block Key, Subelement 80 — PIN Service Code)
+	CurrencyCodeTransaction                 string `iso8583:"49"`  // Currency code, transaction
+	CurrencyCodeSettlement                  string `iso8583:"50"`  // Currency code, settlement
+	CurrencyCodeCardholderBilling           string `iso8583:"51"`  // Currency code, cardholder billing
+	PersonalIdentificationNumberData        string `iso8583:"52"`  // Personal identification number data (DE 52: Personal ID Number (PIN) Data)
+	SecurityRelatedControlInformation       string `iso8583:"53"`  // Security related control information (DE 53: Security-Related Control Information, Subfield 1 — PIN Security Type Code, Subfield 2 — PIN Encryption Type Code, Subfield 3 — PIN Block Format Code, Subfield 4—PIN Key Index Number)
+	AdditionalAmounts                       string `iso8583:"54"`  // Additional amounts
+	ICCData                                 string `iso8583:"55"`  // ICC data – EMV having multiple tags
+	ReservedISO                             string `iso8583:"56"`  // Reserved (ISO)
+	ReservedNational1                       string `iso8583:"57"`  // Reserved (national)
+	ReservedNational2                       string `iso8583:"58"`  // Reserved (national)
+	ReservedNational3                       string `iso8583:"59"`  // Reserved (national)
+	ReservedNational4                       string `iso8583:"60"`  // Reserved (national) (e.g. settlement request: batch number, advice transactions: original transaction amount, batch upload: original MTI plus original RRN plus original STAN, etc.)
+	ReservedPrivate1                        string `iso8583:"61"`  // Reserved (private) (e.g. transactions: invoice number, key exchange transactions: TPK key, etc.)
+	ReservedPrivate2                        string `iso8583:"62"`  // Reserved (private) (e.g. transactions: invoice number, key exchange transactions: TPK key, etc.)
+	ReservedPrivate3                        string `iso8583:"63"`  // Reserved (private)
+	MessageAuthenticationCode1              string `iso8583:"64"`  // Message authentication code (MAC)
+	ExtendedBitmapIndicator                 string `iso8583:"65"`  // Extended bitmap indicator
+	SettlementCode                          string `iso8583:"66"`  // Settlement code
+	ExtendedPaymentCode                     string `iso8583:"67"`  // Extended payment code
+	ReceivingInstitutionCountryCode         string `iso8583:"68"`  // Receiving institution country code
+	SettlementInstitutionCountryCode        string `iso8583:"69"`  // Settlement institution country code
+	NetworkManagementInformationCode        string `iso8583:"70"`  // Network management information code
+	MessageNumber                           string `iso8583:"71"`  // Message number
+	LastMessagesNumber                      string `iso8583:"72"`  // Last message's number
+	ActionDate                              string `iso8583:"73"`  // Action date (YYMMDD)
+	NumberOfCredits                         string `iso8583:"74"`  // Number of credits
+	CreditsReversalNumber                   string `iso8583:"75"`  // Credits, reversal number
+	NumberOfDebits                          string `iso8583:"76"`  // Number of debits
+	DebitsReversalNumber                    string `iso8583:"77"`  // Debits, reversal number
+	TransferNumber                          string `iso8583:"78"`  // Transfer number
+	TransferReversalNumber                  string `iso8583:"79"`  // Transfer, reversal number
+	NumberOfInquiries                       string `iso8583:"80"`  // Number of inquiries
+	NumberOfAuthorizations                  string `iso8583:"81"`  // Number of authorizations
+	CreditsProcessingFeeAmount              string `iso8583:"82"`  // Credits, processing fee amount
+	CreditsTransactionFeeAmount             string `iso8583:"83"`  // Credits, transaction fee amount
+	DebitsProcessingFeeAmount               string `iso8583:"84"`  // Debits, processing fee amount
+	DebitsTransactionFeeAmount              string `iso8583:"85"`  // Debits, transaction fee amount
+	TotalAmountOfCredits                    string `iso8583:"86"`  // Total amount of credits
+	CreditsReversalAmount                   string `iso8583:"87"`  // Credits, reversal amount
+	TotalAmountOfDebits                     string `iso8583:"88"`  // Total amount of debits
+	DebitsReversalAmount                    string `iso8583:"89"`  // Debits, reversal amount
+	OriginalDataElements                    string `iso8583:"90"`  // Original data elements
+	FileUpdateCode                          string `iso8583:"91"`  // File update code
+	FileSecurityCode                        string `iso8583:"92"`  // File security code
+	ResponseIndicator                       string `iso8583:"93"`  // Response indicator
+	ServiceIndicator                        string `iso8583:"94"`  // Service indicator
+	ReplacementAmounts                      string `iso8583:"95"`  // Replacement amounts
+	MessageSecurityCode                     string `iso8583:"96"`  // Message security code
+	NetSettlementAmount                     string `iso8583:"97"`  // Net settlement amount
+	Payee                                   string `iso8583:"98"`  // Payee
+	SettlementInstitutionIdentificationCode string `iso8583:"99"`  // Settlement institution identification code
+	ReceivingInstitutionIdentificationCode  string `iso8583:"100"` // Receiving institution identification code
+	FileName                                string `iso8583:"101"` // File name
+	AccountIdentification1                  string `iso8583:"102"` // Account identification 1
+	AccountIdentification2                  string `iso8583:"103"` // Account identification 2
+	TransactionDescription                  string `iso8583:"104"` // Transaction description
+	ReservedForISOUse1                      string `iso8583:"105"` // Reserved for ISO use
+	ReservedForISOUse2                      string `iso8583:"106"` // Reserved for ISO use
+	ReservedForISOUse3                      string `iso8583:"107"` // Reserved for ISO use
+	ReservedForISOUse4                      string `iso8583:"108"` // Reserved for ISO use
+	ReservedForISOUse5                      string `iso8583:"109"` // Reserved for ISO use
+	ReservedForISOUse6                      string `iso8583:"110"` // Reserved for ISO use
+	ReservedForISOUse7                      string `iso8583:"111"` // Reserved for ISO use
+	ReservedForNationalUse1                 string `iso8583:"112"` // Reserved for national use
+	ReservedForNationalUse2                 string `iso8583:"113"` // Reserved for national use
+	ReservedForNationalUse3                 string `iso8583:"114"` // Reserved for national use
+	ReservedForNationalUse4                 string `iso8583:"115"` // Reserved for national use
+	ReservedForNationalUse5                 string `iso8583:"116"` // Reserved for national use
+	ReservedForNationalUse6                 string `iso8583:"117"` // Reserved for national use
+	ReservedForNationalUse7                 string `iso8583:"118"` // Reserved for national use
+	ReservedForNationalUse8                 string `iso8583:"119"` // Reserved for national use
+	ReservedForPrivateUse1                  string `iso8583:"120"` // Reserved for private use
+	ReservedForPrivateUse2                  string `iso8583:"121"` // Reserved for private use
+	ReservedForPrivateUse3                  string `iso8583:"122"` // Reserved for private use
+	ReservedForPrivateUse4                  string `iso8583:"123"` // Reserved for private use
+	ReservedForPrivateUse5                  string `iso8583:"124"` // Reserved for private use
+	ReservedForPrivateUse6                  string `iso8583:"125"` // Reserved for private use
+	ReservedForPrivateUse7                  string `iso8583:"126"` // Reserved for private use
+	ReservedForPrivateUse8                  string `iso8583:"127"` // Reserved for private use
+	MessageAuthenticationCode2              string `iso8583:"128"` // Message authentication code
 }
 
 type iso8583Msg2 struct {
-	MTI                                string `iso8538:"MTI"`
-	PrimaryAccountNumber               string `iso8538:"2"`
-	ProcessingCode                     string `iso8538:"3"`
-	AmountOrig                         string `iso8538:"4"`
-	Amount                             string `iso8538:"6"`
-	TransmissionDateTime               string `iso8538:"7"`
-	BillingRate                        string `iso8538:"10"`
-	TraceNumber                        string `iso8538:"11"`
-	LocalTime                          string `iso8538:"12"`
-	LocalDate                          string `iso8538:"13"`
-	DateExpiration                     string `iso8538:"14"`
-	DateSettlement                     string `iso8538:"15"`
-	DateCapture                        string `iso8538:"17"`
-	MerchantType                       string `iso8538:"18"`
-	AcquiringInstitutionCountryCode    string `iso8538:"19"`
-	POSDataCode                        string `iso8538:"22"`
-	PointOfServiceConditionCode        string `iso8538:"25"`
-	TransactionFee                     string `iso8538:"28"`
-	ONLINEIssuerAuthorizationFeeAmount string `iso8538:"31"`
-	AcquirerInstitutionID              string `iso8538:"32"`
-	TrackData                          string `iso8538:"35"`
-	RetrievalReference                 string `iso8538:"37"`
-	AuthIDCode                         string `iso8538:"38"`
-	RespCode                           string `iso8538:"39"`
-	CardAccptrTermnlID                 string `iso8538:"41"`
-	CardAccptrIDCode                   string `iso8538:"42"`
-	CardAccptrNameLoc                  string `iso8538:"43"`
-	AdditionalResponseData             string `iso8538:"44"`
-	CurrencyOrig                       string `iso8538:"49"`
-	Currency                           string `iso8538:"51"`
-	PersonalIdentificationNumberData   string `iso8538:"52"`
-	SecurityRelatedControlInformation  string `iso8538:"53"`
-	AddtnlAmounts                      string `iso8538:"54"`
-	ICCRelatedData                     string `iso8538:"55"`
-	OriginalDataSerials                string `iso8538:"56"`
-	AdditionalInformation              string `iso8538:"60"`
-	OtherAmtTrans                      string `iso8538:"61"`
-	NetworkManagementInformationCode   string `iso8538:"70"`
-	BusinessDate                       string `iso8538:"73"`
-	OrigDataElemts                     string `iso8538:"90"`
-	NumberOfAccounts                   string `iso8538:"93"`
-	QuerySequence                      string `iso8538:"94"`
-	ReplacementAmount                  string `iso8538:"95"`
-	MoreFlag                           string `iso8538:"99"`
-	MessageOriginator                  string `iso8538:"100"`
-	AccountFrom                        string `iso8538:"102"`
-	AccountTo                          string `iso8538:"103"`
-	PrivateData                        string `iso8538:"104"`
-	AdditionalInformationPart2         string `iso8538:"116"`
-	AdditionalAmountAccountTo          string `iso8538:"117"`
-	AdditionalInformationPart1         string `iso8538:"120"`
-	Transfercurrencies                 string `iso8538:"122"`
-	CardholderUtilityAccount           string `iso8538:"125"`
-	PrivateUseFields                   string `iso8538:"126"`
+	MTI                                string `iso8583:"MTI"`
+	PrimaryAccountNumber               string `iso8583:"2"`
+	ProcessingCode                     string `iso8583:"3"`
+	AmountOrig                         string `iso8583:"4"`
+	Amount                             string `iso8583:"6"`
+	TransmissionDateTime               string `iso8583:"7"`
+	BillingRate                        string `iso8583:"10"`
+	TraceNumber                        string `iso8583:"11"`
+	LocalTime                          string `iso8583:"12"`
+	LocalDate                          string `iso8583:"13"`
+	DateExpiration                     string `iso8583:"14"`
+	DateSettlement                     string `iso8583:"15"`
+	DateCapture                        string `iso8583:"17"`
+	MerchantType                       string `iso8583:"18"`
+	AcquiringInstitutionCountryCode    string `iso8583:"19"`
+	POSDataCode                        string `iso8583:"22"`
+	PointOfServiceConditionCode        string `iso8583:"25"`
+	TransactionFee                     string `iso8583:"28"`
+	ONLINEIssuerAuthorizationFeeAmount string `iso8583:"31"`
+	AcquirerInstitutionID              string `iso8583:"32"`
+	TrackData                          string `iso8583:"35"`
+	RetrievalReference                 string `iso8583:"37"`
+	AuthIDCode                         string `iso8583:"38"`
+	RespCode                           string `iso8583:"39"`
+	CardAccptrTermnlID                 string `iso8583:"41"`
+	CardAccptrIDCode                   string `iso8583:"42"`
+	CardAccptrNameLoc                  string `iso8583:"43"`
+	AdditionalResponseData             string `iso8583:"44"`
+	CurrencyOrig                       string `iso8583:"49"`
+	Currency                           string `iso8583:"51"`
+	PersonalIdentificationNumberData   string `iso8583:"52"`
+	SecurityRelatedControlInformation  string `iso8583:"53"`
+	AddtnlAmounts                      string `iso8583:"54"`
+	ICCRelatedData                     string `iso8583:"55"`
+	OriginalDataSerials                string `iso8583:"56"`
+	AdditionalInformation              string `iso8583:"60"`
+	OtherAmtTrans                      string `iso8583:"61"`
+	NetworkManagementInformationCode   string `iso8583:"70"`
+	BusinessDate                       string `iso8583:"73"`
+	OrigDataElemts                     string `iso8583:"90"`
+	NumberOfAccounts                   string `iso8583:"93"`
+	QuerySequence                      string `iso8583:"94"`
+	ReplacementAmount                  string `iso8583:"95"`
+	MoreFlag                           string `iso8583:"99"`
+	MessageOriginator                  string `iso8583:"100"`
+	AccountFrom                        string `iso8583:"102"`
+	AccountTo                          string `iso8583:"103"`
+	PrivateData                        string `iso8583:"104"`
+	AdditionalInformationPart2         string `iso8583:"116"`
+	AdditionalAmountAccountTo          string `iso8583:"117"`
+	AdditionalInformationPart1         string `iso8583:"120"`
+	Transfercurrencies                 string `iso8583:"122"`
+	CardholderUtilityAccount           string `iso8583:"125"`
+	PrivateUseFields                   string `iso8583:"126"`
 }
