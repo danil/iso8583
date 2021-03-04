@@ -192,17 +192,17 @@ func (c FIX) Encode(h Hasher, dec []byte) ([]byte, error) { return c.Enc(h, c, d
 func (c FIX) Decode(h Hasher, enc []byte) ([]byte, error) { return c.Dec(h, c, enc) }
 
 const (
-	fieldMinLen = 1
-	fieldMaxLen = 999
+	fldMinLen = 1
+	fldMaxLen = 999
 )
 
 // readFix reads a field with fixed length.
 func (c FIX) Read(r io.Reader) ([]byte, error) {
-	if c.Length < fieldMinLen {
-		return nil, fmt.Errorf("fixed field length too small to read: %d < %d", c.Length, fieldMinLen)
+	if c.Length < fldMinLen {
+		return nil, fmt.Errorf("fixed field length too small to read: %d < %d", c.Length, fldMinLen)
 	}
-	if c.Length > fieldMaxLen {
-		return nil, fmt.Errorf("fixed field length too big to read: %d > %d", c.Length, fieldMaxLen)
+	if c.Length > fldMaxLen {
+		return nil, fmt.Errorf("fixed field length too big to read: %d > %d", c.Length, fldMaxLen)
 	}
 	data := make([]byte, c.Length)
 	_, err := r.Read(data)
@@ -211,11 +211,11 @@ func (c FIX) Read(r io.Reader) ([]byte, error) {
 
 // Write writes a field with fixed length.
 func (c FIX) Write(w io.Writer, data []byte) error {
-	if c.Length < fieldMinLen {
-		return fmt.Errorf("fixed field length too small to write: %d < %d", c.Length, fieldMinLen)
+	if c.Length < fldMinLen {
+		return fmt.Errorf("fixed field length too small to write: %d < %d", c.Length, fldMinLen)
 	}
-	if c.Length > fieldMaxLen {
-		return fmt.Errorf("fixed field length too big to write: %d > %d", c.Length, fieldMaxLen)
+	if c.Length > fldMaxLen {
+		return fmt.Errorf("fixed field length too big to write: %d > %d", c.Length, fldMaxLen)
 	}
 	_, err := w.Write(data)
 	return err
@@ -311,8 +311,8 @@ func varRead(r io.Reader, lenOfLen, maxLen int, dec DecodeCharsetFunc) ([]byte, 
 	if err != nil {
 		return nil, err
 	}
-	if length < fieldMinLen {
-		return nil, fmt.Errorf("VAR field length too small to read: %d < %d", length, fieldMinLen)
+	if length < fldMinLen {
+		return nil, fmt.Errorf("VAR field length too small to read: %d < %d", length, fldMinLen)
 	}
 	if length > maxLen {
 		return nil, fmt.Errorf("VAR field length too big to read: %d > %d", length, maxLen)
@@ -324,10 +324,10 @@ func varRead(r io.Reader, lenOfLen, maxLen int, dec DecodeCharsetFunc) ([]byte, 
 
 // varWrite writes a field with variable length (VAR).
 func varWrite(w io.Writer, data []byte, lenOfLen, maxLen int, enc EncodeCharsetFunc) error {
-	if len(data) < fieldMinLen {
-		return fmt.Errorf("field value length is too small to write: %d < %d", len(data), fieldMinLen)
+	if len(data) < fldMinLen {
+		return fmt.Errorf("field value length is too small to write: %d < %d", len(data), fldMinLen)
 	}
-	if len(data) > maxLen || maxLen > fieldMaxLen {
+	if len(data) > maxLen || maxLen > fldMaxLen {
 		return fmt.Errorf("field value length is too big to write: %d > %d", len(data), maxLen)
 	}
 	rawLengthOfLength := []byte(fmt.Sprintf("%0"+strconv.Itoa(lenOfLen)+"d", len(data)))
