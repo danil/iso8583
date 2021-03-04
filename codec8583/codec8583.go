@@ -196,7 +196,7 @@ const (
 	fldMaxLen = 999
 )
 
-// readFix reads a field with fixed length.
+// Read reads a field with fixed length.
 func (c FIX) Read(r io.Reader) ([]byte, error) {
 	if c.Length < fldMinLen {
 		return nil, fmt.Errorf("fixed field length too small to read: %d < %d", c.Length, fldMinLen)
