@@ -50,11 +50,11 @@ func (mrs marshal) marshal(v interface{}) ([]byte, error) {
 	if !mtiVal.IsValid() {
 		return nil, errors.New("must have MTI field")
 	}
-	fldNumbers, fldValues := mrs.fieldNumbersAndValues()
-	priBmp, secBmp := mrs.bitmaps(fldNumbers)
+	fldNums, fldVals := mrs.fieldNumbersAndValues()
+	priBmp, secBmp := mrs.bitmaps(fldNums)
 	if secBmp != [8]byte{} {
-		fldValues[1] = secBmp[:]
-		fldNumbers = append([]int{1}, fldNumbers...)
+		fldVals[1] = secBmp[:]
+		fldNums = append([]int{1}, fldNums...)
 	}
 	err := mrs.encodeMTI([]byte(mtiVal.String()))
 	if err != nil {
@@ -64,37 +64,37 @@ func (mrs marshal) marshal(v interface{}) ([]byte, error) {
 	if err != nil {
 		return nil, fmt.Errorf("encode primary bitmap: %w", err)
 	}
-	err = mrs.encodeFields(fldNumbers, fldValues)
+	err = mrs.encodeFields(fldNums, fldVals)
 	if err != nil {
 		return nil, err
 	}
 	return target.Bytes(), nil
 }
 
-func (mrs *marshal) bitmaps(fldNumbers []int) ([8]byte, [8]byte) {
+func (mrs *marshal) bitmaps(fldNums []int) ([8]byte, [8]byte) {
 	priBmp := bitmap64.Bitmap([8]byte{})
 	i := 0
-	for i < len(fldNumbers) {
-		n := fldNumbers[i]
+	for i < len(fldNums) {
+		n := fldNums[i]
 		if n > 64 {
 			break
 		}
 		priBmp.Set(n)
-		if i == len(fldNumbers)-1 {
+		if i == len(fldNums)-1 {
 			return priBmp, [8]byte{}
 		}
 		i++
 	}
 	priBmp.Set(1)
 	secBmp := bitmap64.Bitmap([8]byte{})
-	for ; i < len(fldNumbers); i++ {
-		secBmp.Set(fldNumbers[i] - 64)
+	for ; i < len(fldNums); i++ {
+		secBmp.Set(fldNums[i] - 64)
 	}
 	return priBmp, secBmp
 }
 
 func (mrs *marshal) fieldNumbersAndValues() ([]int, map[int][]byte) {
-	fldValues := map[int][]byte{}
+	fldVals := map[int][]byte{}
 	for i := 0; i < mrs.source.NumField(); i++ {
 		fldVal := mrs.source.Field(i)
 		fld := mrs.source.Type().Field(i)
@@ -111,14 +111,14 @@ func (mrs *marshal) fieldNumbersAndValues() ([]int, map[int][]byte) {
 		if val == "" {
 			continue
 		}
-		fldValues[int(idx)] = []byte(val)
+		fldVals[int(idx)] = []byte(val)
 	}
-	fldNumbers := make([]int, 0, len(fldValues))
-	for fld := range fldValues {
-		fldNumbers = append(fldNumbers, fld)
+	fldNums := make([]int, 0, len(fldVals))
+	for fld := range fldVals {
+		fldNums = append(fldNums, fld)
 	}
-	sort.Ints(fldNumbers)
-	return fldNumbers, fldValues
+	sort.Ints(fldNums)
+	return fldNums, fldVals
 }
 
 func (mrs *marshal) encodeMTI(mti []byte) error {
@@ -139,12 +139,12 @@ func (mrs *marshal) encodePrimaryBitmap(priBmp [8]byte) error {
 	return bmpCodec.Write(mrs.target, raw)
 }
 
-func (mrs *marshal) encodeFields(fldNumbers []int, fldValues map[int][]byte) error {
-	for _, fld := range fldNumbers {
-		val := fldValues[fld]
+func (mrs *marshal) encodeFields(fldNums []int, fldVals map[int][]byte) error {
+	for _, fld := range fldNums {
+		val := fldVals[fld]
 		err := mrs.encodeField(fld, val)
 		if err != nil {
-			return fmt.Errorf("encode field: %w, field: %d, value: %#v, all fields %v", err, fld, val, fldNumbers)
+			return fmt.Errorf("encode field: %w, field: %d, value: %#v, all fields %v", err, fld, val, fldNums)
 		}
 	}
 	return nil

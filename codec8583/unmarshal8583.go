@@ -45,11 +45,11 @@ func (umrs unmarshal) unmarshal(raw []byte, v interface{}) error {
 	if err != nil {
 		return fmt.Errorf("decode MTI: %w", err)
 	}
-	fldNumbers, err := umrs.decodeBitmaps()
+	fldNums, err := umrs.decodeBitmaps()
 	if err != nil {
 		return fmt.Errorf("decode bitmaps: %w", err)
 	}
-	return umrs.decodeFields(fldNumbers)
+	return umrs.decodeFields(fldNums)
 }
 
 func (umrs *unmarshal) decodeMTI() error {
@@ -89,15 +89,15 @@ func (umrs *unmarshal) decodeBitmaps() ([]int, error) {
 	if err != nil {
 		return nil, err
 	}
-	var fldNumbers []int
+	var fldNums []int
 	bmp := bitmap64.New(priBmp)
 	for i := 0; i < 64; i++ {
 		if bmp.Get(i + 1) {
-			fldNumbers = append(fldNumbers, i+1)
+			fldNums = append(fldNums, i+1)
 		}
 	}
 	if !bmp.Get(1) {
-		return fldNumbers, nil
+		return fldNums, nil
 	}
 	bmpCodec = umrs.format[1]
 	raw, err = bmpCodec.Read(umrs.source)
@@ -111,24 +111,24 @@ func (umrs *unmarshal) decodeBitmaps() ([]int, error) {
 	bmp = bitmap64.New(secBmp)
 	for i := 0; i < 64; i++ {
 		if bmp.Get(i + 1) {
-			fldNumbers = append(fldNumbers, i+64+1)
+			fldNums = append(fldNums, i+64+1)
 		}
 	}
-	return fldNumbers, nil
+	return fldNums, nil
 }
 
-func (umrs *unmarshal) decodeFields(fldNumbers []int) error {
+func (umrs *unmarshal) decodeFields(fldNums []int) error {
 	fldToTgtFld, err := decodingFieldToTargetFields(umrs.target)
 	if err != nil {
 		return err
 	}
-	for _, fld := range fldNumbers {
+	for _, fld := range fldNums {
 		if fld == 1 { // ISO 8583 first field (secondary bitmap) already read.
 			continue
 		}
 		err = umrs.decodeField(fld, fldToTgtFld)
 		if err != nil {
-			return fmt.Errorf("decode field: %d, %w, all fields: %v", fld, err, fldNumbers)
+			return fmt.Errorf("decode field: %d, %w, all fields: %v", fld, err, fldNums)
 		}
 	}
 	return nil
