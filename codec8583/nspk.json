@@ -1,7 +1,7 @@
 [
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX6334",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX6334",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000020126",
         "AmountCardholderBilling": "000000000310",
@@ -31,8 +31,8 @@
         "ReservedPrivate3": "TNWGAP405"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX9412",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX9412",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000012390",
         "AmountCardholderBilling": "000000000191",
@@ -62,8 +62,8 @@
         "ReservedPrivate3": "TNWQBPE00"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX6334",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX6334",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000020126",
         "AmountCardholderBilling": "000000000310",
@@ -84,8 +84,8 @@
         "ReservedPrivate3": "TNWGAP405"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX9653",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX9653",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000003200",
         "AmountCardholderBilling": "000000000049",
@@ -113,8 +113,8 @@
         "ReservedPrivate3": "TNWQDDR04"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX9412",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX9412",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000012390",
         "AmountCardholderBilling": "000000000191",
@@ -135,8 +135,8 @@
         "ReservedPrivate3": "TNWQBPE00"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX9653",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX9653",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000003200",
         "AmountCardholderBilling": "000000000049",
@@ -157,8 +157,8 @@
         "ReservedPrivate3": "TNWQDDR04"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX3494",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX3494",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000017000",
         "AmountCardholderBilling": "000000000262",
@@ -188,8 +188,8 @@
         "ReservedPrivate3": "TNWQ2ZY04"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX3494",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX3494",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000017000",
         "AmountCardholderBilling": "000000000262",
@@ -210,8 +210,8 @@
         "ReservedPrivate3": "TNWQ2ZY04"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX4703",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX4703",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000029966",
         "AmountCardholderBilling": "000000000462",
@@ -241,8 +241,8 @@
         "ReservedPrivate3": "TNWG1FQ07"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX4488",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX4488",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000005500",
         "AmountCardholderBilling": "000000000085",
@@ -272,8 +272,8 @@
         "ReservedPrivate3": "TNWQCUA06"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX4703",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX4703",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000029966",
         "AmountCardholderBilling": "000000000462",
@@ -294,8 +294,8 @@
         "ReservedPrivate3": "TNWG1FQ07"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX4488",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX4488",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000005500",
         "AmountCardholderBilling": "000000000085",
@@ -316,8 +316,8 @@
         "ReservedPrivate3": "TNWQCUA06"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX6112",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX6112",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000004200",
         "AmountCardholderBilling": "000000000065",
@@ -347,8 +347,8 @@
         "ReservedPrivate3": "TNWEQA707"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX9171",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX9171",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000003200",
         "AmountCardholderBilling": "000000000049",
@@ -376,8 +376,8 @@
         "ReservedPrivate3": "TNWG61301"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX6112",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX6112",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000004200",
         "AmountCardholderBilling": "000000000065",
@@ -398,8 +398,8 @@
         "ReservedPrivate3": "TNWEQA707"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX9171",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX9171",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000003200",
         "AmountCardholderBilling": "000000000049",
@@ -420,8 +420,8 @@
         "ReservedPrivate3": "TNWG61301"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX6720",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX6720",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000083120",
         "AmountCardholderBilling": "000000001282",
@@ -451,8 +451,8 @@
         "ReservedPrivate3": "TNWQBPT02"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX6720",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX6720",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000083120",
         "AmountCardholderBilling": "000000001282",
@@ -473,8 +473,8 @@
         "ReservedPrivate3": "TNWQBPT02"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX7173",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX7173",
         "ProcessingCode": "280000",
         "AmountTransaction": "000000500000",
         "AmountCardholderBilling": "000000007713",
@@ -499,8 +499,8 @@
         "ReservedForPrivateUse5": "0005037928108313801sender, name            SENDER_ADDRESS                                    SENDER_CITY                 RUSNONE      00000000000000000000                                             "
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX7173",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX7173",
         "ProcessingCode": "280000",
         "AmountTransaction": "000000500000",
         "AmountCardholderBilling": "000000007713",
@@ -522,8 +522,8 @@
         "ReservedForPrivateUse5": "0005037928108313801sender, name            SENDER_ADDRESS                                    SENDER_CITY                 RUSNONE      00000000000000000000                                             "
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX6674",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX6674",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000004796",
         "AmountCardholderBilling": "000000000074",
@@ -547,8 +547,8 @@
         "ReservedPrivate3": "TNWG5EH03"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX6674",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX6674",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000004796",
         "AmountCardholderBilling": "000000000074",
@@ -568,8 +568,8 @@
         "ReservedPrivate3": "TNWG5EH03"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX5489",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX5489",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000040000",
         "AmountCardholderBilling": "000000000617",
@@ -596,8 +596,8 @@
         "ReservedPrivate3": "TNWPPM704"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX5489",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX5489",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000040000",
         "AmountCardholderBilling": "000000000617",
@@ -618,8 +618,8 @@
         "ReservedPrivate3": "TNWPPM704"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX4690",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX4690",
         "ProcessingCode": "010000",
         "AmountTransaction": "000000750000",
         "AmountCardholderBilling": "000000011569",
@@ -650,8 +650,8 @@
         "ReservedPrivate3": "TNWQCUV04"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX4372",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX4372",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000004900",
         "AmountCardholderBilling": "000000000076",
@@ -679,8 +679,8 @@
         "ReservedPrivate3": "TNWQBQ708"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX5572",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX5572",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000010200",
         "AmountCardholderBilling": "000000000157",
@@ -710,8 +710,8 @@
         "ReservedPrivate3": "TNWG5EP01"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX4372",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX4372",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000004900",
         "AmountCardholderBilling": "000000000076",
@@ -732,8 +732,8 @@
         "ReservedPrivate3": "TNWQBQ708"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX5572",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX5572",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000010200",
         "AmountCardholderBilling": "000000000157",
@@ -754,8 +754,8 @@
         "ReservedPrivate3": "TNWG5EP01"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX4690",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX4690",
         "ProcessingCode": "010000",
         "AmountTransaction": "000000750000",
         "AmountCardholderBilling": "000000011569",
@@ -777,8 +777,8 @@
         "ReservedPrivate3": "TNWQCUV04"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX4130",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX4130",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000004850",
         "AmountCardholderBilling": "000000000075",
@@ -806,8 +806,8 @@
         "ReservedPrivate3": "TNWQBQD00"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX4130",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX4130",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000004850",
         "AmountCardholderBilling": "000000000075",
@@ -828,8 +828,8 @@
         "ReservedPrivate3": "TNWQBQD00"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX1412",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX1412",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000038645",
         "AmountCardholderBilling": "000000000596",
@@ -859,8 +859,8 @@
         "ReservedPrivate3": "TNWG92407"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX1412",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX1412",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000038645",
         "AmountCardholderBilling": "000000000596",
@@ -881,8 +881,8 @@
         "ReservedPrivate3": "TNWG92407"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX0234",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX0234",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000002500",
         "AmountCardholderBilling": "000000000039",
@@ -912,8 +912,8 @@
         "ReservedPrivate3": "TNWGAQ709"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX0234",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX0234",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000002500",
         "AmountCardholderBilling": "000000000039",
@@ -934,8 +934,8 @@
         "ReservedPrivate3": "TNWGAQ709"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX9726",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX9726",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000002300",
         "AmountCardholderBilling": "000000000035",
@@ -963,8 +963,8 @@
         "ReservedPrivate3": "TNWGAQ905"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX9726",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX9726",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000002300",
         "AmountCardholderBilling": "000000000035",
@@ -985,8 +985,8 @@
         "ReservedPrivate3": "TNWGAQ905"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX5954",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX5954",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000014900",
         "AmountCardholderBilling": "000000000230",
@@ -1016,8 +1016,8 @@
         "ReservedPrivate3": "TNWQETZ08"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX5954",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX5954",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000014900",
         "AmountCardholderBilling": "000000000230",
@@ -1038,8 +1038,8 @@
         "ReservedPrivate3": "TNWQETZ08"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX0527",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX0527",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000013167",
         "AmountCardholderBilling": "000000000203",
@@ -1063,8 +1063,8 @@
         "ReservedPrivate3": "TNWQCVN00"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX0527",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX0527",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000013167",
         "AmountCardholderBilling": "000000000203",
@@ -1084,8 +1084,8 @@
         "ReservedPrivate3": "TNWQCVN00"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX8860",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX8860",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000007100",
         "AmountCardholderBilling": "000000000110",
@@ -1113,8 +1113,8 @@
         "ReservedPrivate3": "TNWQCVO04"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX2898",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX2898",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000003600",
         "AmountCardholderBilling": "000000000056",
@@ -1142,8 +1142,8 @@
         "ReservedPrivate3": "TNWP48A00"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX8860",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX8860",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000007100",
         "AmountCardholderBilling": "000000000110",
@@ -1164,8 +1164,8 @@
         "ReservedPrivate3": "TNWQCVO04"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX7956",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX7956",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000102794",
         "AmountCardholderBilling": "000000001586",
@@ -1193,8 +1193,8 @@
         "ReservedPrivate3": "TNWGAQQ09"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX2898",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX2898",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000003600",
         "AmountCardholderBilling": "000000000056",
@@ -1215,8 +1215,8 @@
         "ReservedPrivate3": "TNWP48A00"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX7956",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX7956",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000102794",
         "AmountCardholderBilling": "000000001586",
@@ -1237,8 +1237,8 @@
         "ReservedPrivate3": "TNWGAQQ09"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX1204",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX1204",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000002400",
         "AmountCardholderBilling": "000000000037",
@@ -1268,8 +1268,8 @@
         "ReservedPrivate3": "TNWG5G209"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX2977",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX2977",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000060760",
         "AmountCardholderBilling": "000000000937",
@@ -1297,8 +1297,8 @@
         "ReservedPrivate3": "TNWG5G203"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX1204",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX1204",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000002400",
         "AmountCardholderBilling": "000000000037",
@@ -1319,8 +1319,8 @@
         "ReservedPrivate3": "TNWG5G209"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX2977",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX2977",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000060760",
         "AmountCardholderBilling": "000000000937",
@@ -1341,8 +1341,8 @@
         "ReservedPrivate3": "TNWG5G203"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX6956",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX6956",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000020831",
         "AmountCardholderBilling": "000000000321",
@@ -1372,8 +1372,8 @@
         "ReservedPrivate3": "TNWG5G807"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX6956",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX6956",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000020831",
         "AmountCardholderBilling": "000000000321",
@@ -1394,8 +1394,8 @@
         "ReservedPrivate3": "TNWG5G807"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX5485",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX5485",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000022000",
         "AmountCardholderBilling": "000000000339",
@@ -1425,8 +1425,8 @@
         "ReservedPrivate3": "TNWQEV702"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX9174",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX9174",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000005000",
         "AmountCardholderBilling": "000000000077",
@@ -1456,8 +1456,8 @@
         "ReservedPrivate3": "TNWGARE05"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX5485",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX5485",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000022000",
         "AmountCardholderBilling": "000000000339",
@@ -1478,8 +1478,8 @@
         "ReservedPrivate3": "TNWQEV702"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX9174",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX9174",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000005000",
         "AmountCardholderBilling": "000000000077",
@@ -1500,8 +1500,8 @@
         "ReservedPrivate3": "TNWGARE05"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX5336",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX5336",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000010000",
         "AmountCardholderBilling": "000000000154",
@@ -1525,8 +1525,8 @@
         "ReservedPrivate3": "TNWGARF09"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX7272",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX7272",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000005207",
         "AmountCardholderBilling": "000000000080",
@@ -1556,8 +1556,8 @@
         "ReservedPrivate3": "TNWG5GE01"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX5336",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX5336",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000010000",
         "AmountCardholderBilling": "000000000154",
@@ -1577,8 +1577,8 @@
         "ReservedPrivate3": "TNWGARF09"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX7272",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX7272",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000005207",
         "AmountCardholderBilling": "000000000080",
@@ -1599,8 +1599,8 @@
         "ReservedPrivate3": "TNWG5GE01"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX2574",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX2574",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000017700",
         "AmountCardholderBilling": "000000000273",
@@ -1630,8 +1630,8 @@
         "ReservedPrivate3": "TNWG5GH01"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX2574",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX2574",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000017700",
         "AmountCardholderBilling": "000000000273",
@@ -1652,8 +1652,8 @@
         "ReservedPrivate3": "TNWG5GH01"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX4906",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX4906",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000011000",
         "AmountCardholderBilling": "000000000170",
@@ -1683,8 +1683,8 @@
         "ReservedPrivate3": "TNWP48C06"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX4906",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX4906",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000011000",
         "AmountCardholderBilling": "000000000170",
@@ -1705,8 +1705,8 @@
         "ReservedPrivate3": "TNWP48C06"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX6908",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX6908",
         "ProcessingCode": "010000",
         "AmountTransaction": "000000030000",
         "AmountCardholderBilling": "000000000463",
@@ -1736,8 +1736,8 @@
         "ReservedPrivate3": "TNWG7EH07"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX6294",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX6294",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000003200",
         "AmountCardholderBilling": "000000000049",
@@ -1767,8 +1767,8 @@
         "ReservedPrivate3": "TNWG61Y03"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX6908",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX6908",
         "ProcessingCode": "010000",
         "AmountTransaction": "000000030000",
         "AmountCardholderBilling": "000000000463",
@@ -1790,8 +1790,8 @@
         "ReservedPrivate3": "TNWG7EH07"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX6294",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX6294",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000003200",
         "AmountCardholderBilling": "000000000049",
@@ -1812,8 +1812,8 @@
         "ReservedPrivate3": "TNWG61Y03"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX0257",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX0257",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000078800",
         "AmountCardholderBilling": "000000001216",
@@ -1843,8 +1843,8 @@
         "ReservedPrivate3": "TNWQ8Z000"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX0257",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX0257",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000078800",
         "AmountCardholderBilling": "000000001216",
@@ -1865,8 +1865,8 @@
         "ReservedPrivate3": "TNWQ8Z000"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX6659",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX6659",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000055000",
         "AmountCardholderBilling": "000000000848",
@@ -1894,8 +1894,8 @@
         "ReservedPrivate3": "TNWG7EJ01"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX6659",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX6659",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000055000",
         "AmountCardholderBilling": "000000000848",
@@ -1916,8 +1916,8 @@
         "ReservedPrivate3": "TNWG7EJ01"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX8439",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX8439",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000020050",
         "AmountCardholderBilling": "000000000309",
@@ -1947,8 +1947,8 @@
         "ReservedPrivate3": "TNWGAS403"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX8439",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX8439",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000020050",
         "AmountCardholderBilling": "000000000309",
@@ -1969,8 +1969,8 @@
         "ReservedPrivate3": "TNWGAS403"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX9362",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX9362",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000016983",
         "AmountCardholderBilling": "000000000262",
@@ -1998,8 +1998,8 @@
         "ReservedPrivate3": "TNWOQIM02"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX9362",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX9362",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000016983",
         "AmountCardholderBilling": "000000000262",
@@ -2020,8 +2020,8 @@
         "ReservedPrivate3": "TNWOQIM02"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX3219",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX3219",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000001700",
         "AmountCardholderBilling": "000000000026",
@@ -2051,8 +2051,8 @@
         "ReservedPrivate3": "TNWGASB01"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX3219",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX3219",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000001700",
         "AmountCardholderBilling": "000000000026",
@@ -2073,8 +2073,8 @@
         "ReservedPrivate3": "TNWGASB01"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX1776",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX1776",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000024010",
         "AmountCardholderBilling": "000000000370",
@@ -2104,8 +2104,8 @@
         "ReservedPrivate3": "TNWG5HG07"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX6657",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX6657",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000029900",
         "AmountCardholderBilling": "000000000461",
@@ -2129,8 +2129,8 @@
         "ReservedPrivate3": "TNWG5HH07"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX1776",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX1776",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000024010",
         "AmountCardholderBilling": "000000000370",
@@ -2151,8 +2151,8 @@
         "ReservedPrivate3": "TNWG5HG07"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX6657",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX6657",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000029900",
         "AmountCardholderBilling": "000000000461",
@@ -2172,8 +2172,8 @@
         "ReservedPrivate3": "TNWG5HH07"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX0433",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX0433",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000004500",
         "AmountCardholderBilling": "000000000069",
@@ -2203,8 +2203,8 @@
         "ReservedPrivate3": "TNWQCXG08"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX5476",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX5476",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000011600",
         "AmountCardholderBilling": "000000000179",
@@ -2228,8 +2228,8 @@
         "ReservedPrivate3": "TNWQEWH08"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX0433",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX0433",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000004500",
         "AmountCardholderBilling": "000000000069",
@@ -2250,8 +2250,8 @@
         "ReservedPrivate3": "TNWQCXG08"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX8338",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX8338",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000010500",
         "AmountCardholderBilling": "000000000162",
@@ -2279,8 +2279,8 @@
         "ReservedPrivate3": "TNWQEWG02"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX5476",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX5476",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000011600",
         "AmountCardholderBilling": "000000000179",
@@ -2300,8 +2300,8 @@
         "ReservedPrivate3": "TNWQEWH08"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX8338",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX8338",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000010500",
         "AmountCardholderBilling": "000000000162",
@@ -2322,8 +2322,8 @@
         "ReservedPrivate3": "TNWQEWG02"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX5659",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX5659",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000151870",
         "AmountCardholderBilling": "000000002343",
@@ -2351,8 +2351,8 @@
         "ReservedPrivate3": "TNWQEWL08"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX5659",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX5659",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000151870",
         "AmountCardholderBilling": "000000002343",
@@ -2373,8 +2373,8 @@
         "ReservedPrivate3": "TNWQEWL08"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX2756",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX2756",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000001000",
         "AmountCardholderBilling": "000000000015",
@@ -2402,8 +2402,8 @@
         "ReservedPrivate3": "TNWG5HQ09"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX2756",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX2756",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000001000",
         "AmountCardholderBilling": "000000000015",
@@ -2424,8 +2424,8 @@
         "ReservedPrivate3": "TNWG5HQ09"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX2289",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX2289",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000015600",
         "AmountCardholderBilling": "000000000241",
@@ -2449,8 +2449,8 @@
         "ReservedPrivate3": "TNWQEWP08"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX2289",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX2289",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000015600",
         "AmountCardholderBilling": "000000000241",
@@ -2470,8 +2470,8 @@
         "ReservedPrivate3": "TNWQEWP08"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX1373",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX1373",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000004590",
         "AmountCardholderBilling": "000000000071",
@@ -2501,8 +2501,8 @@
         "ReservedPrivate3": "TNWG5HV07"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX1373",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX1373",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000004590",
         "AmountCardholderBilling": "000000000071",
@@ -2523,8 +2523,8 @@
         "ReservedPrivate3": "TNWG5HV07"
     },
     {
-        "MessageTypeIndicator": "0400",
-        "PrimaryAccountNumber": "5321XXXXXXXX2813",
+        "MTIMessageTypeIndicator": "0400",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX2813",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000009400",
         "AmountCardholderBilling": "000000000145",
@@ -2556,8 +2556,8 @@
         "ReplacementAmounts": "000000002400000000000000000000000037000000"
     },
     {
-        "MessageTypeIndicator": "0410",
-        "PrimaryAccountNumber": "5321XXXXXXXX2813",
+        "MTIMessageTypeIndicator": "0410",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX2813",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000009400",
         "AmountCardholderBilling": "000000000145",
@@ -2579,8 +2579,8 @@
         "ReplacementAmounts": "000000002400000000000000000000000037000000"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX0766",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX0766",
         "ProcessingCode": "010000",
         "AmountTransaction": "000000800000",
         "AmountCardholderBilling": "000000012341",
@@ -2612,8 +2612,8 @@
         "ReservedPrivate3": "TNWF24J03"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX0766",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX0766",
         "ProcessingCode": "010000",
         "AmountTransaction": "000000800000",
         "AmountCardholderBilling": "000000012341",
@@ -2635,8 +2635,8 @@
         "ReservedPrivate3": "TNWF24J03"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX5609",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX5609",
         "ProcessingCode": "010000",
         "AmountTransaction": "000000010000",
         "AmountCardholderBilling": "000000000154",
@@ -2667,8 +2667,8 @@
         "ReservedPrivate3": "TNWG5I903"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX4856",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX4856",
         "ProcessingCode": "010000",
         "AmountTransaction": "000000150000",
         "AmountCardholderBilling": "000000002314",
@@ -2696,8 +2696,8 @@
         "ReservedPrivate3": "TNWQCY400"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX5609",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX5609",
         "ProcessingCode": "010000",
         "AmountTransaction": "000000010000",
         "AmountCardholderBilling": "000000000154",
@@ -2718,8 +2718,8 @@
         "ReservedPrivate3": "TNWG5I903"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX4856",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX4856",
         "ProcessingCode": "010000",
         "AmountTransaction": "000000150000",
         "AmountCardholderBilling": "000000002314",
@@ -2740,8 +2740,8 @@
         "ReservedPrivate3": "TNWQCY400"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX0419",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX0419",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000010000",
         "AmountCardholderBilling": "000000000154",
@@ -2771,8 +2771,8 @@
         "ReservedPrivate3": "TNWG62L01"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX6155",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX6155",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000005000",
         "AmountCardholderBilling": "000000000077",
@@ -2802,8 +2802,8 @@
         "ReservedPrivate3": "TNWQEXH00"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX0419",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX0419",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000010000",
         "AmountCardholderBilling": "000000000154",
@@ -2824,8 +2824,8 @@
         "ReservedPrivate3": "TNWG62L01"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX6155",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX6155",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000005000",
         "AmountCardholderBilling": "000000000077",
@@ -2846,8 +2846,8 @@
         "ReservedPrivate3": "TNWQEXH00"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX5743",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX5743",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000032400",
         "AmountCardholderBilling": "000000000500",
@@ -2875,8 +2875,8 @@
         "ReservedPrivate3": "TNWO1G904"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX5743",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX5743",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000032400",
         "AmountCardholderBilling": "000000000500",
@@ -2897,8 +2897,8 @@
         "ReservedPrivate3": "TNWO1G904"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX1905",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX1905",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000005340",
         "AmountCardholderBilling": "000000000082",
@@ -2928,8 +2928,8 @@
         "ReservedPrivate3": "TNWQCYM04"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX1905",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX1905",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000005340",
         "AmountCardholderBilling": "000000000082",
@@ -2950,8 +2950,8 @@
         "ReservedPrivate3": "TNWQCYM04"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX8760",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX8760",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000010200",
         "AmountCardholderBilling": "000000000157",
@@ -2981,8 +2981,8 @@
         "ReservedPrivate3": "TNWFU5K09"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX6818",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX6818",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000013000",
         "AmountCardholderBilling": "000000000201",
@@ -3010,8 +3010,8 @@
         "ReservedPrivate3": "TNWG5IW05"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX6818",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX6818",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000013000",
         "AmountCardholderBilling": "000000000201",
@@ -3032,8 +3032,8 @@
         "ReservedPrivate3": "TNWG5IW05"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX8760",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX8760",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000010200",
         "AmountCardholderBilling": "000000000157",
@@ -3054,8 +3054,8 @@
         "ReservedPrivate3": "TNWFU5K09"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX2752",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX2752",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000004600",
         "AmountCardholderBilling": "000000000071",
@@ -3085,8 +3085,8 @@
         "ReservedPrivate3": "TNWOZ1300"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX2752",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX2752",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000004600",
         "AmountCardholderBilling": "000000000071",
@@ -3107,8 +3107,8 @@
         "ReservedPrivate3": "TNWOZ1300"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX4160",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX4160",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000017000",
         "AmountCardholderBilling": "000000000262",
@@ -3136,8 +3136,8 @@
         "ReservedPrivate3": "TNWPTV702"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX5468",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX5468",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000015850",
         "AmountCardholderBilling": "000000000245",
@@ -3165,8 +3165,8 @@
         "ReservedPrivate3": "TNWEFH405"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX4160",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX4160",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000017000",
         "AmountCardholderBilling": "000000000262",
@@ -3187,8 +3187,8 @@
         "ReservedPrivate3": "TNWPTV702"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX5468",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX5468",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000015850",
         "AmountCardholderBilling": "000000000245",
@@ -3209,8 +3209,8 @@
         "ReservedPrivate3": "TNWEFH405"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX4166",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX4166",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000004200",
         "AmountCardholderBilling": "000000000065",
@@ -3240,8 +3240,8 @@
         "ReservedPrivate3": "TNWEQAI09"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX3286",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX3286",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000009050",
         "AmountCardholderBilling": "000000000140",
@@ -3269,8 +3269,8 @@
         "ReservedPrivate3": "TNWQDFM00"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX4166",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX4166",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000004200",
         "AmountCardholderBilling": "000000000065",
@@ -3291,8 +3291,8 @@
         "ReservedPrivate3": "TNWEQAI09"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX0308",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX0308",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000027920",
         "AmountCardholderBilling": "000000000431",
@@ -3320,8 +3320,8 @@
         "ReservedPrivate3": "TNWQCYW08"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX3286",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX3286",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000009050",
         "AmountCardholderBilling": "000000000140",
@@ -3342,8 +3342,8 @@
         "ReservedPrivate3": "TNWQDFM00"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX0308",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX0308",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000027920",
         "AmountCardholderBilling": "000000000431",
@@ -3364,8 +3364,8 @@
         "ReservedPrivate3": "TNWQCYW08"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX5717",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX5717",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000054401",
         "AmountCardholderBilling": "000000000839",
@@ -3393,8 +3393,8 @@
         "ReservedPrivate3": "TNWQ8ZJ02"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX5717",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX5717",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000054401",
         "AmountCardholderBilling": "000000000839",
@@ -3415,8 +3415,8 @@
         "ReservedPrivate3": "TNWQ8ZJ02"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX5132",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX5132",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000018800",
         "AmountCardholderBilling": "000000000290",
@@ -3444,8 +3444,8 @@
         "ReservedPrivate3": "TNWFU5M09"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX5132",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX5132",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000018800",
         "AmountCardholderBilling": "000000000290",
@@ -3466,8 +3466,8 @@
         "ReservedPrivate3": "TNWFU5M09"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX4430",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX4430",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000011200",
         "AmountCardholderBilling": "000000000173",
@@ -3497,8 +3497,8 @@
         "ReservedPrivate3": "TNWGAU403"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX0947",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX0947",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000008450",
         "AmountCardholderBilling": "000000000130",
@@ -3526,8 +3526,8 @@
         "ReservedPrivate3": "TNWG5JE09"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX4430",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX4430",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000011200",
         "AmountCardholderBilling": "000000000173",
@@ -3548,8 +3548,8 @@
         "ReservedPrivate3": "TNWGAU403"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX9196",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX9196",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000007925",
         "AmountCardholderBilling": "000000000122",
@@ -3579,8 +3579,8 @@
         "ReservedPrivate3": "TNWG5JG09"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX0947",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX0947",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000008450",
         "AmountCardholderBilling": "000000000130",
@@ -3601,8 +3601,8 @@
         "ReservedPrivate3": "TNWG5JE09"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX9196",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX9196",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000007925",
         "AmountCardholderBilling": "000000000122",
@@ -3623,8 +3623,8 @@
         "ReservedPrivate3": "TNWG5JG09"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX0141",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX0141",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000004500",
         "AmountCardholderBilling": "000000000069",
@@ -3652,8 +3652,8 @@
         "ReservedPrivate3": "TNWQDFR08"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX8943",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX8943",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000018700",
         "AmountCardholderBilling": "000000000288",
@@ -3683,8 +3683,8 @@
         "ReservedPrivate3": "TNWQDFT08"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX0141",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX0141",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000004500",
         "AmountCardholderBilling": "000000000069",
@@ -3705,8 +3705,8 @@
         "ReservedPrivate3": "TNWQDFR08"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX8943",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX8943",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000018700",
         "AmountCardholderBilling": "000000000288",
@@ -3727,8 +3727,8 @@
         "ReservedPrivate3": "TNWQDFT08"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX7481",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX7481",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000230800",
         "AmountCardholderBilling": "000000003560",
@@ -3759,8 +3759,8 @@
         "ReservedPrivate3": "TNWQCZF02"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX7481",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX7481",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000230800",
         "AmountCardholderBilling": "000000003560",
@@ -3781,8 +3781,8 @@
         "ReservedPrivate3": "TNWQCZF02"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX1569",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX1569",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000002300",
         "AmountCardholderBilling": "000000000035",
@@ -3810,8 +3810,8 @@
         "ReservedPrivate3": "TNWOFBJ02"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX1569",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX1569",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000002300",
         "AmountCardholderBilling": "000000000035",
@@ -3832,8 +3832,8 @@
         "ReservedPrivate3": "TNWOFBJ02"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX3200",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX3200",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000003200",
         "AmountCardholderBilling": "000000000049",
@@ -3861,8 +3861,8 @@
         "ReservedPrivate3": "TNWG63405"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX3200",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX3200",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000003200",
         "AmountCardholderBilling": "000000000049",
@@ -3883,8 +3883,8 @@
         "ReservedPrivate3": "TNWG63405"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX2876",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX2876",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000006250",
         "AmountCardholderBilling": "000000000096",
@@ -3912,8 +3912,8 @@
         "ReservedPrivate3": "TNWG5K005"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX2876",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX2876",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000006250",
         "AmountCardholderBilling": "000000000096",
@@ -3934,8 +3934,8 @@
         "ReservedPrivate3": "TNWG5K005"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX7387",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX7387",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000055500",
         "AmountCardholderBilling": "000000000856",
@@ -3965,8 +3965,8 @@
         "ReservedPrivate3": "TNWG5K505"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX0463",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX0463",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000019300",
         "AmountCardholderBilling": "000000000298",
@@ -3996,8 +3996,8 @@
         "ReservedPrivate3": "TNWQEZA06"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX7387",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX7387",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000055500",
         "AmountCardholderBilling": "000000000856",
@@ -4018,8 +4018,8 @@
         "ReservedPrivate3": "TNWG5K505"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX4024",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX4024",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000002300",
         "AmountCardholderBilling": "000000000035",
@@ -4049,8 +4049,8 @@
         "ReservedPrivate3": "TNWQEZA08"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX5197",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX5197",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000002600",
         "AmountCardholderBilling": "000000000040",
@@ -4078,8 +4078,8 @@
         "ReservedPrivate3": "TNWQEZ904"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX8210",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX8210",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000119900",
         "AmountCardholderBilling": "000000001850",
@@ -4110,8 +4110,8 @@
         "ReservedPrivate3": "TNWP48N00"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX0463",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX0463",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000019300",
         "AmountCardholderBilling": "000000000298",
@@ -4132,8 +4132,8 @@
         "ReservedPrivate3": "TNWQEZA06"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX5197",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX5197",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000002600",
         "AmountCardholderBilling": "000000000040",
@@ -4154,8 +4154,8 @@
         "ReservedPrivate3": "TNWQEZ904"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX4024",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX4024",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000002300",
         "AmountCardholderBilling": "000000000035",
@@ -4176,8 +4176,8 @@
         "ReservedPrivate3": "TNWQEZA08"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX8210",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX8210",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000119900",
         "AmountCardholderBilling": "000000001850",
@@ -4198,8 +4198,8 @@
         "ReservedPrivate3": "TNWP48N00"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX8225",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX8225",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000100000",
         "AmountCardholderBilling": "000000001543",
@@ -4226,8 +4226,8 @@
         "ReservedPrivate3": "TNWEFH805"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX1431",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX1431",
         "ProcessingCode": "010000",
         "AmountTransaction": "000000070000",
         "AmountCardholderBilling": "000000001080",
@@ -4258,8 +4258,8 @@
         "ReservedPrivate3": "TNWGAUY03"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX8225",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX8225",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000100000",
         "AmountCardholderBilling": "000000001543",
@@ -4280,8 +4280,8 @@
         "ReservedPrivate3": "TNWEFH805"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX1431",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX1431",
         "ProcessingCode": "010000",
         "AmountTransaction": "000000070000",
         "AmountCardholderBilling": "000000001080",
@@ -4303,8 +4303,8 @@
         "ReservedPrivate3": "TNWGAUY03"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX7837",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX7837",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000019900",
         "AmountCardholderBilling": "000000000307",
@@ -4332,8 +4332,8 @@
         "ReservedPrivate3": "TNWGAUZ05"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX7837",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX7837",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000019900",
         "AmountCardholderBilling": "000000000307",
@@ -4354,8 +4354,8 @@
         "ReservedPrivate3": "TNWGAUZ05"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX4024",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX4024",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000002300",
         "AmountCardholderBilling": "000000000035",
@@ -4385,8 +4385,8 @@
         "ReservedPrivate3": "TNWQEZL06"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX1789",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX1789",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000004100",
         "AmountCardholderBilling": "000000000063",
@@ -4417,8 +4417,8 @@
         "ReservedPrivate3": "TNWOZ1500"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX2718",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX2718",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000024000",
         "AmountCardholderBilling": "000000000370",
@@ -4446,8 +4446,8 @@
         "ReservedPrivate3": "TNWQD0408"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX3656",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX3656",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000008000",
         "AmountCardholderBilling": "000000000123",
@@ -4477,8 +4477,8 @@
         "ReservedPrivate3": "TNWQEZN02"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX4024",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX4024",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000002300",
         "AmountCardholderBilling": "000000000035",
@@ -4499,8 +4499,8 @@
         "ReservedPrivate3": "TNWQEZL06"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX2718",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX2718",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000024000",
         "AmountCardholderBilling": "000000000370",
@@ -4521,8 +4521,8 @@
         "ReservedPrivate3": "TNWQD0408"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX1789",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX1789",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000004100",
         "AmountCardholderBilling": "000000000063",
@@ -4544,8 +4544,8 @@
         "ReservedPrivate3": "TNWOZ1500"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX3656",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX3656",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000008000",
         "AmountCardholderBilling": "000000000123",
@@ -4566,8 +4566,8 @@
         "ReservedPrivate3": "TNWQEZN02"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX4795",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX4795",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000001299",
         "AmountCardholderBilling": "000000000020",
@@ -4597,8 +4597,8 @@
         "ReservedPrivate3": "TNWG5KM09"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX4144",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX4144",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000011500",
         "AmountCardholderBilling": "000000000177",
@@ -4626,8 +4626,8 @@
         "ReservedPrivate3": "TNWOFBK04"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX0519",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX0519",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000003489",
         "AmountCardholderBilling": "000000000054",
@@ -4655,8 +4655,8 @@
         "ReservedPrivate3": "TNWQD0A08"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX4795",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX4795",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000001299",
         "AmountCardholderBilling": "000000000020",
@@ -4677,8 +4677,8 @@
         "ReservedPrivate3": "TNWG5KM09"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX4144",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX4144",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000011500",
         "AmountCardholderBilling": "000000000177",
@@ -4699,8 +4699,8 @@
         "ReservedPrivate3": "TNWOFBK04"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX0519",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX0519",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000003489",
         "AmountCardholderBilling": "000000000054",
@@ -4721,8 +4721,8 @@
         "ReservedPrivate3": "TNWQD0A08"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX9718",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX9718",
         "ProcessingCode": "010000",
         "AmountTransaction": "000000050000",
         "AmountCardholderBilling": "000000000771",
@@ -4753,8 +4753,8 @@
         "ReservedPrivate3": "TNWQEZY04"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX9718",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX9718",
         "ProcessingCode": "010000",
         "AmountTransaction": "000000050000",
         "AmountCardholderBilling": "000000000771",
@@ -4776,8 +4776,8 @@
         "ReservedPrivate3": "TNWQEZY04"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX8743",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX8743",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000004699",
         "AmountCardholderBilling": "000000000072",
@@ -4807,8 +4807,8 @@
         "ReservedPrivate3": "TNWQD0J04"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX4582",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX4582",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000000100",
         "AmountCardholderBilling": "000000000002",
@@ -4832,8 +4832,8 @@
         "ReservedPrivate3": "TNWG5KW05"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX3865",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX3865",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000015000",
         "AmountCardholderBilling": "000000000231",
@@ -4861,8 +4861,8 @@
         "ReservedPrivate3": "TNWQD0J00"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX4582",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX4582",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000000100",
         "AmountCardholderBilling": "000000000002",
@@ -4882,8 +4882,8 @@
         "ReservedPrivate3": "TNWG5KW05"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX8743",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX8743",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000004699",
         "AmountCardholderBilling": "000000000072",
@@ -4904,8 +4904,8 @@
         "ReservedPrivate3": "TNWQD0J04"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX3865",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX3865",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000015000",
         "AmountCardholderBilling": "000000000231",
@@ -4926,8 +4926,8 @@
         "ReservedPrivate3": "TNWQD0J00"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX4737",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX4737",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000600000",
         "AmountCardholderBilling": "000000009256",
@@ -4958,8 +4958,8 @@
         "ReservedPrivate3": "TNWGAVI01"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX4737",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX4737",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000600000",
         "AmountCardholderBilling": "000000009256",
@@ -4981,8 +4981,8 @@
         "ReservedPrivate3": "TNWGAVI01"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX3762",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX3762",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000007500",
         "AmountCardholderBilling": "000000000116",
@@ -5012,8 +5012,8 @@
         "ReservedPrivate3": "TNWGAVL01"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX2650",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX2650",
         "ProcessingCode": "010000",
         "AmountTransaction": "000000040000",
         "AmountCardholderBilling": "000000000617",
@@ -5044,8 +5044,8 @@
         "ReservedPrivate3": "TNWGAVL09"
     },
     {
-        "MessageTypeIndicator": "0100",
-        "PrimaryAccountNumber": "5321XXXXXXXX1763",
+        "MTIMessageTypeIndicator": "0100",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX1763",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000052591",
         "AmountCardholderBilling": "000000000811",
@@ -5072,8 +5072,8 @@
         "ReservedPrivate3": "TNWQ7OY08"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX3762",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX3762",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000007500",
         "AmountCardholderBilling": "000000000116",
@@ -5094,8 +5094,8 @@
         "ReservedPrivate3": "TNWGAVL01"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX2650",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX2650",
         "ProcessingCode": "010000",
         "AmountTransaction": "000000040000",
         "AmountCardholderBilling": "000000000617",
@@ -5117,8 +5117,8 @@
         "ReservedPrivate3": "TNWGAVL09"
     },
     {
-        "MessageTypeIndicator": "0110",
-        "PrimaryAccountNumber": "5321XXXXXXXX1763",
+        "MTIMessageTypeIndicator": "0110",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX1763",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000052591",
         "AmountCardholderBilling": "000000000811",
@@ -5139,8 +5139,8 @@
         "ReservedPrivate3": "TNWQ7OY08"
     },
     {
-        "MessageTypeIndicator": "0400",
-        "PrimaryAccountNumber": "5321XXXXXXXX4582",
+        "MTIMessageTypeIndicator": "0400",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX4582",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000000100",
         "AmountCardholderBilling": "000000000002",
@@ -5167,8 +5167,8 @@
         "OriginalDataElements": "010033783510080532150000000503700000200154"
     },
     {
-        "MessageTypeIndicator": "0410",
-        "PrimaryAccountNumber": "5321XXXXXXXX4582",
+        "MTIMessageTypeIndicator": "0410",
+        "PANPrimaryAccountNumber2": "5321XXXXXXXX4582",
         "ProcessingCode": "000000",
         "AmountTransaction": "000000000100",
         "AmountCardholderBilling": "000000000002",
