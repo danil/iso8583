@@ -4,5 +4,6 @@ go 1.16
 
 require (
 	github.com/danil/equal4 v0.9.0
+	github.com/danil/protoscan v0.0.40
 	golang.org/x/text v0.3.5
 )
