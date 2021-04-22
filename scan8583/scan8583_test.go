@@ -22,20 +22,20 @@ var ScannerScanTestCases = []struct {
 }{
 	{
 		line:      line(),
-		split:     protoscan.ScanISO8583Indiscriminately,
+		split:     scan8583.ScanISO8583Indiscriminately,
 		input:     payload8583(tsysMsgs[0], tsysMsgs[1], tsysMsgs[2], tsysMsgs[3]),
 		expected:  4,
 		benchmark: true,
 	},
 	{
 		line:     line(),
-		split:    protoscan.ScanISO8583Indiscriminately,
+		split:    scan8583.ScanISO8583Indiscriminately,
 		input:    payload8583(tsysMsgs[3]),
 		expected: 1,
 	},
 	{
 		line:     line(),
-		split:    protoscan.ScanISO8583Indiscriminately,
+		split:    scan8583.ScanISO8583Indiscriminately,
 		input:    []byte{},
 		expected: 0,
 	},
@@ -109,7 +109,7 @@ func TestTSYSValidation(t *testing.T) {
 			r := bytes.NewReader(tc.input)
 			s := protoscan.Protoscan{
 				Reader: r,
-				Split:  protoscan.ScanISO8583Indiscriminately,
+				Split:  scan8583.ScanISO8583Indiscriminately,
 			}
 			var (
 				tokens  [][]byte
