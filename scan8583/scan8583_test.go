@@ -10,7 +10,7 @@ import (
 
 	"github.com/danil/iso8583/codec8583"
 	"github.com/danil/iso8583/scan8583"
-	"github.com/danil/protoscan"
+	"github.com/protoscan/protoscan"
 )
 
 var ScannerScanTestCases = []struct {
