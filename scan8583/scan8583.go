@@ -17,21 +17,28 @@ const iso8583Size = 2
 // The returned token may holds invalid or inconsistent
 // or incomplete ISO 8583 message or holds not ISO 8583 at all
 // because this split function do not performs any message validation.
-func ScanISO8583Indiscriminately(data []byte, _atEOF bool) (int, [][]byte, int, []byte, error) {
+func ScanISO8583Indiscriminately(data []byte, tokens *[]byte, indexes *[]int, _ *[]byte, _ bool) (int, int, error) {
 	if len(data) == 0 {
-		return iso8583Size, nil, 0, nil, nil
+		return iso8583Size, 0, nil
 	}
+
 	size := int(binary.BigEndian.Uint16(data[:iso8583Size]))
 	if len(data) == iso8583Size {
-		return size, nil, 0, nil, nil
+		return size, 0, nil
 	}
+
 	if len(data) > size+iso8583Size {
-		return 0, nil, 0, nil, errors.New("buffer exceeds hinted size of the ISO 8583 token")
+		return 0, 0, errors.New("buffer exceeds hinted size of the ISO 8583 token")
 	}
+
 	if len(data) < size+iso8583Size {
-		return size + iso8583Size - len(data), nil, 0, nil, nil
+		return size + iso8583Size - len(data), 0, nil
 	}
-	return 0, nil, len(data), data, nil
+
+	*tokens = append(*tokens, data...)
+	*indexes = append(*indexes, len(data))
+
+	return 0, len(data), nil
 }
 
 // ScanISO8583 is a split function for a Protoscan that returns each
