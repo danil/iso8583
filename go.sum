@@ -1,7 +1,7 @@
 github.com/danil/equal4 v0.0.13 h1:dZukd+/5AZhrr6alCBdsnMmrdwoOpdJ8bLESCyYe0z4=
 github.com/danil/equal4 v0.0.13/go.mod h1:qxGhGzcLKhxxA/rYBBu7uorSQE8sMJyqWO0XbaFDSEE=
-github.com/protoscan/protoscan v0.2.0 h1:MEfcUJwAsOfNjOTO1/5wHB6afZJ+W+uTtJHbuIWIuvQ=
-github.com/protoscan/protoscan v0.2.0/go.mod h1:GKU+4x2gYlicPdh3nNJ7X3UMfEwYS8+CxRU1ZyG/Wtk=
+github.com/protoscan/protoscan v0.5.0 h1:pmL8u6B/v1Si/0wB4FQEvPF6G6FBGXkaukYWM2SBqgU=
+github.com/protoscan/protoscan v0.5.0/go.mod h1:GKU+4x2gYlicPdh3nNJ7X3UMfEwYS8+CxRU1ZyG/Wtk=
 golang.org/x/text v0.3.6 h1:aRYxNxv6iGQlyVaZmk6ZgYEDa+Jg18DxebPSrd6bg1M=
 golang.org/x/text v0.3.6/go.mod h1:5Zoc/QRtKVWzQhOtBMvqHzDpF6irO9z98xDceosuGiQ=
 golang.org/x/tools v0.0.0-20180917221912-90fa682c2a6e/go.mod h1:n7NCudcB/nEzxVGmLbDWY5pfWTLqBcC2KZ6jyYvM4mQ=

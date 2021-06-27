@@ -59,7 +59,7 @@ func TestScannerScan(t *testing.T) {
 			)
 			for s.Scan() {
 				count++
-				payload = append(payload, s.Tokens[:s.Indexes[0]]...)
+				payload = append(payload, s.Token...)
 			}
 			err := s.Err()
 			if err != nil {
@@ -114,7 +114,7 @@ func TestTSYSValidation(t *testing.T) {
 				payload []byte
 			)
 			for s.Scan() {
-				token := append([]byte{}, s.Tokens[:s.Indexes[0]]...)
+				token := append([]byte{}, s.Token...)
 				tokens = append(tokens, token)
 				payload = append(payload, token...)
 			}
